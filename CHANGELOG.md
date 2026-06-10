@@ -9,9 +9,11 @@ Maca uses `0.0.x` patch versions during early development and follows
 
 ## [Unreleased]
 
-- Auth: collapse the token + subscription "refresh storm" with
-  stale-while-revalidate guards, fixing unexpected sign-outs and slow
-  subscription checks.
+## [0.0.56]
+
+- Fixed unexpected sign-outs and slow subscription checks caused by an
+  over-eager background refresh loop (token and subscription refreshes are
+  now coalesced and served from cache while still fresh).
 
 ## [0.0.55]
 
