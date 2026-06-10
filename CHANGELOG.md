@@ -9,6 +9,12 @@ Maca uses `0.0.x` patch versions during early development and follows
 
 ## [Unreleased]
 
+## [0.0.57]
+
+- New translate mode: press Shift+Fn to dictate, then tap Fn to insert your
+  speech translated into your chosen language. Pick the language in onboarding
+  or Settings, and rebind the shortcut anytime under Settings → Shortcuts.
+
 ## [0.0.56]
 
 - Fixed unexpected sign-outs and slow subscription checks caused by an
