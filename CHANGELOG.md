@@ -9,6 +9,14 @@ Maca uses `0.0.x` patch versions during early development and follows
 
 ## [Unreleased]
 
+## [0.0.59]
+
+- Maca now warns you when another app is blocking your keyboard with macOS
+  Secure Input, and tells you how to fix it, instead of the shortcut silently
+  doing nothing. This was a common cause of "Fn stopped working."
+- Fixed hotkeys firing on the wrong key on non-QWERTY keyboard layouts
+  (Dvorak, AZERTY, Colemak). Bindings now resolve against your active layout.
+
 ## [0.0.57]
 
 - New translate mode: press Shift+Fn to dictate, then tap Fn to insert your
