@@ -9,6 +9,15 @@ Maca uses `0.0.x` patch versions during early development and follows
 
 ## [Unreleased]
 
+## [0.0.62]
+
+- New Transforms: select any text and press Option+1 to polish it in place,
+  or Option+2 to turn rough notes into a clear AI prompt. Create up to 8 of
+  your own transforms, each with its own shortcut, and press Option+O to see
+  what changed, undo, or retry.
+- Transforms can also run automatically on every dictation.
+- Onboarding now includes a quick Transforms walkthrough.
+
 ## [0.0.59]
 
 - Maca now warns you when another app is blocking your keyboard with macOS
