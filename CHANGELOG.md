@@ -9,6 +9,19 @@ Maca uses `0.0.x` patch versions during early development and follows
 
 ## [Unreleased]
 
+## [0.0.65]
+
+- Meeting errors are explained in plain language with a next step, instead
+  of showing internal error text.
+
+## [0.0.64]
+
+- Sign-in tells you when it didn't finish and why, instead of waiting
+  forever.
+- Signing in opens the app on the first try, without refreshing the browser
+  page.
+- Updates are read from crafter-station/maca-releases.
+
 ## [0.0.63]
 
 - Maca is now open source under the AGPL-3.0 license.
